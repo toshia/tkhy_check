@@ -17,10 +17,10 @@ module Plugin::CnCheck
   end
 end
 
-Plugin.create(:cn_check) do
+Plugin.create(:tkhy_check) do
   @rheniums = Set.new() # Set of Plugin::CnCheck::Rhenium
 
-  %w[cn rhe__ se4k cn_court_ cn_scaffold_ cat cn_check_check aclog_bot aclog_service re4k].each do |sn|
+  %w[takahyy takahyy_key takahyy_ne takahyy_tv_bot takahyy2 takahyy3 takahyy4 takahyy5 takahyy6 takahyy7 takahyy8 takahyy9 takahyy10 takahyy0 takahyy1 takahyy_ takahyy_c shijin_tkhy takahyy_f takahyy_fav takahyy_quartet takahyy_bot].each do |sn|
     @rheniums << Plugin::CnCheck::Rhenium.new(sn, false, 15).period
   end
 
